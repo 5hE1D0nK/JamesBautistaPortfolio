@@ -51,7 +51,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "13389 Bois-des-Trottier, QC, Montreal ",
+  address: "13389 Bois-des-Trottiers, QC, Montreal ",
   phoneNo: "+438 878 3515 ",
   email: "jamessheldona@gmail.com",
 };
