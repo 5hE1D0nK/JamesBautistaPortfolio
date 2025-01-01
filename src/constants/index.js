@@ -45,7 +45,7 @@ export const PROJECTS = [
     title: "Arithmetic Expression Calculator",
     image: calculator,
     description:
-      "Designed and implemented a custom arithmetic calculator in Java, handling complex expressions with twoexpandable array-based stacks. The project required building the stack data structure from scratch, achieving O(1) amortized time complexity and O(n) space complexity, supporting various operators and outputting results to a file.",
+      "Designed and implemented a custom arithmetic calculator in Java, handling complex expressions with two expandable array-based stacks. The project required building the stack data structure from scratch, achieving O(1) amortized time complexity and O(n) space complexity, supporting various operators and outputting results to a file.",
     technologies: ["Java"],
   },
 ];
