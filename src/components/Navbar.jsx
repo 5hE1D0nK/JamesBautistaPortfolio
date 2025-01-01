@@ -9,8 +9,22 @@ const Navbar = () => {
     </div>
     
     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin/>
+      <a 
+        href="https://www.linkedin.com/in/james-bautista-611b462ab" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        aria-label="LinkedIn"
+      >
+        <FaLinkedin />
+      </a>
+      <a 
+        href="https://github.com/5hE1D0nK" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        aria-label="GitHub"
+      >
         <FaGithub/>
+      </a>
     </div>
   </nav>;
 }
