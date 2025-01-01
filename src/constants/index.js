@@ -1,7 +1,7 @@
 import rice from "../assets/projects/rice.ico";
 import SafeAndSound from "../assets/projects/SafeandSound.png";
 import FormCheckAI from "../assets/projects/FCAI.png";
-import calculator from "../assets/projects/calculator.png";
+import PriorityQueue from "../assets/projects/PriorityQueue.png";
 
 export const HERO_CONTENT = `I am a second-year Software Engineering student at Concordia University with practical experience in software/agile development and strong foundation in teamwork, problem-solving, and communication. I have developed various technical projects, including a Peer Assessment Application, a noise monitoring program ("Safe and Sound"), and a fitness application (FormCheck AI), showcasing my expertise in programming languages such as Python, Java, and JavaScript, along with tools like OpenCV, Node.js, and React.`;
 
@@ -42,10 +42,10 @@ export const PROJECTS = [
     technologies: ["Python", "OpenCV", "MediaPipe", "HTML", "CSS", "JavaScript (Front-End)"],
   },
   {
-    title: "Arithmetic Expression Calculator",
-    image: calculator,
+    title: "Smarter Priority Queue (SPQ) Implementation",
+    image: PriorityQueue,
     description:
-      "Designed and implemented a custom arithmetic calculator in Java, handling complex expressions with two expandable array-based stacks. The project required building the stack data structure from scratch, achieving O(1) amortized time complexity and O(n) space complexity, supporting various operators and outputting results to a file.",
+      "Created an adaptable priority queue in Java, utilizing both min- and max-heap structures with a dynamically extendable array. Implemented efficient algorithms for all operations, optimizing time complexity, and delivered detailed pseudocode and complexity analysis alongside a fully tested Java implementation.",
     technologies: ["Java"],
   },
 ];
