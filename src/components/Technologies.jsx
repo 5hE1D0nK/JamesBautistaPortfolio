@@ -4,7 +4,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import PythonIcon from "../assets/python.svg";
 import JavaIcon from "../assets/java.svg";
-import CppIcon from ".../assests/c++.svg"
+import CppIcon from "../assests/c++.svg"
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
