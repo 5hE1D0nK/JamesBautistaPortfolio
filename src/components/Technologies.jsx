@@ -4,6 +4,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import PythonIcon from "../assets/python.svg";
 import JavaIcon from "../assets/java.svg";
+import CppIcon from ".../assests/c++.svg"
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -34,6 +35,13 @@ function Technologies() {
                 animate="animate"
                 className="rounded-2xl border-4 border-neutral-800 p-3">
                 <img src={PythonIcon} className="h-20 w-20" />
+            </motion.div>
+            <motion.div 
+                variants={iconVariants(1)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-3">
+                <img src={CppIcon} className="h-20 w-20" />
             </motion.div>
             <motion.div 
                 variants={iconVariants(1.1)}
