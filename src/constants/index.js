@@ -2,6 +2,7 @@ import rice from "../assets/projects/rice.ico";
 import SafeAndSound from "../assets/projects/SafeandSound.png";
 import FormCheckAI from "../assets/projects/FCAI.png";
 import PriorityQueue from "../assets/projects/PriorityQueue.png";
+import tictactoe from "../assets/projects/tictactoe.png";
 
 export const HERO_CONTENT = `I am a second-year Software Engineering student at Concordia University with hands-on experience in developing software solutions and applying Agile methodologies. My technical expertise spans programming languages like Python, Java, and JavaScript, as well as frameworks and tools such as React, Node.js, and OpenCV. I have worked on diverse projects, including a Peer Assessment Application, a fitness tracker (FormCheck AI), and a noise monitoring tool ("Safe and Sound"), highlighting my ability to tackle real-world challenges through innovative technology.`;
 
@@ -18,6 +19,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Tic Tac Toe Game with AI",
+    image: tictactoe,
+    description:
+      "Developed a console-based Tic Tac Toe game supporting Human vs. Human and Human vs. AI gameplay modes. Implemented an AI opponent with three difficulty levels (Beginner, Intermediate, Hard) using strategies like random moves, weighted decisions, and the Minimax algorithm for optimal play. Designed dynamic board rendering and game status checks for win, draw, and ongoing conditions. Utilized recursive algorithms for decision-making and ensured a smooth user experience with robust input validation.",
+    technologies: ["C++"],
+  },
   {
     title: "Peer Assessment Application (Full-Stack)",
     image: rice,
