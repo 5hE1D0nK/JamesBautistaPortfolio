@@ -3,7 +3,7 @@ import SafeAndSound from "../assets/projects/SafeandSound.png";
 import FormCheckAI from "../assets/projects/FCAI.png";
 import PriorityQueue from "../assets/projects/PriorityQueue.png";
 import calendar from "../assets/projects/calendar.png";
-import scheduleplanner from "..projects/scheduleplanner.png"
+import scheduleplanner from "../assets/projects/scheduleplanner.png"
 
 export const HERO_CONTENT = `I am a third-year Software Engineering student at Concordia University with hands-on experience in developing software solutions and applying Agile methodologies. My technical expertise spans programming languages like Python, Java, and JavaScript, as well as frameworks and tools such as React, Node.js, and OpenCV. I have worked on diverse projects, including a Peer Assessment Application, a fitness tracker (FormCheck AI), and a noise monitoring tool ("Safe and Sound"), highlighting my ability to tackle real-world challenges through innovative technology.`;
 
