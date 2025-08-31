@@ -21,7 +21,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Google Calendar Coding Hours Tracker",
-    // image: tictactoe,
+    image: calendar,
     description:
       "Developed a Python command-line tool to track coding hours using Google Calendar API integration. Implemented functionality to add events, calculate daily/weekly totals, and generate productivity statistics. Built comprehensive time management system with OAuth2 authentication and time zone handling.",
     technologies: ["C++"],
