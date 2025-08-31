@@ -3,6 +3,7 @@ import SafeAndSound from "../assets/projects/SafeandSound.png";
 import FormCheckAI from "../assets/projects/FCAI.png";
 import PriorityQueue from "../assets/projects/PriorityQueue.png";
 import calendar from "../assets/projects/calendar.png";
+import scheduleplanner from "..projects/scheduleplanner.png"
 
 export const HERO_CONTENT = `I am a third-year Software Engineering student at Concordia University with hands-on experience in developing software solutions and applying Agile methodologies. My technical expertise spans programming languages like Python, Java, and JavaScript, as well as frameworks and tools such as React, Node.js, and OpenCV. I have worked on diverse projects, including a Peer Assessment Application, a fitness tracker (FormCheck AI), and a noise monitoring tool ("Safe and Sound"), highlighting my ability to tackle real-world challenges through innovative technology.`;
 
@@ -24,21 +25,21 @@ export const PROJECTS = [
     image: calendar,
     description:
       "Developed a Python command-line tool to track coding hours using Google Calendar API integration. Implemented functionality to add events, calculate daily/weekly totals, and generate productivity statistics. Built comprehensive time management system with OAuth2 authentication and time zone handling.",
-    technologies: ["C++"],
+    technologies: ["Python", "Google Calendar API", "OAuth2", "datetime manipulation"],
   },
   {
     title: "Smart Course & Schedule Planner",
-    // image: rice,
+    image: scheduleplanner,
     description:
       "Created a schedule generator that balances class times, study breaks, and preferences using backend filters. Implemented dynamic constraint handling with MongoDB query logic for optimized scheduling.",
-    technologies: ["NodeJS", "React", "MongoDB"],
+    technologies: ["Node.js", "Express.js", "MongoDB"],
   },
   {
     title: "Peer Assessment Application",
-    // image: SafeAndSound,
+    image: rice,
     description:
       "Developed a full-stack application for students to evaluate team contributions using rating dimensions. Delivered four iterations over 10 weeks using Agile methodology, version-controlled via GitHub.",
-    technologies: ["Python"],
+    technologies: ["Node.js", "React", "MongoDB"],
   },
   // {
   //   title: "FormCheck AI ",
