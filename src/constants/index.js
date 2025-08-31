@@ -4,9 +4,9 @@ import FormCheckAI from "../assets/projects/FCAI.png";
 import PriorityQueue from "../assets/projects/PriorityQueue.png";
 import tictactoe from "../assets/projects/tictactoe.png";
 
-export const HERO_CONTENT = `I am a second-year Software Engineering student at Concordia University with hands-on experience in developing software solutions and applying Agile methodologies. My technical expertise spans programming languages like Python, Java, and JavaScript, as well as frameworks and tools such as React, Node.js, and OpenCV. I have worked on diverse projects, including a Peer Assessment Application, a fitness tracker (FormCheck AI), and a noise monitoring tool ("Safe and Sound"), highlighting my ability to tackle real-world challenges through innovative technology.`;
+export const HERO_CONTENT = `I am a third-year Software Engineering student at Concordia University with hands-on experience in developing software solutions and applying Agile methodologies. My technical expertise spans programming languages like Python, Java, and JavaScript, as well as frameworks and tools such as React, Node.js, and OpenCV. I have worked on diverse projects, including a Peer Assessment Application, a fitness tracker (FormCheck AI), and a noise monitoring tool ("Safe and Sound"), highlighting my ability to tackle real-world challenges through innovative technology.`;
 
-export const ABOUT_TEXT = `I am a motivated second-year Software Engineering student at Concordia University, passionate about solving problems and building impactful applications. With proficiency in Python, Java, and JavaScript, I specialize in full-stack development using frameworks like React and Node.js. My project experience includes a Peer Assessment Application and tools for fitness tracking and noise analysis, showcasing a blend of technical and creative problem-solving. Beyond academics, I have honed precision and adaptability as a Contractor Apprentice, completing detailed renovations. I thrive in collaborative settings, contributing effectively to team-driven projects, hackathons, and Agile workflows. Fluent in English and French, with a working knowledge of Tagalog, I enjoy music, gaming, fitness, and exploring new challenges.`;
+export const ABOUT_TEXT = `I am a motivated third-year Software Engineering student at Concordia University, passionate about solving problems and building impactful applications. With proficiency in Python, Java, and JavaScript, I specialize in full-stack development using frameworks like React and Node.js. My project experience includes a Peer Assessment Application and tools for fitness tracking and noise analysis, showcasing a blend of technical and creative problem-solving. Beyond academics, I have honed precision and adaptability as a Contractor Apprentice, completing detailed renovations. I thrive in collaborative settings, contributing effectively to team-driven projects, hackathons, and Agile workflows. Fluent in English and French, with a working knowledge of Tagalog, I enjoy music, gaming, fitness, and exploring new challenges.`;
 
 export const EXPERIENCES = [
   {
@@ -20,40 +20,40 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Tic Tac Toe Game with AI",
-    image: tictactoe,
+    title: "Google Calendar Coding Hours Tracker",
+    // image: tictactoe,
     description:
-      "Developed a console-based Tic Tac Toe game supporting Human vs. Human and Human vs. AI gameplay modes. Implemented an AI opponent with three difficulty levels (Beginner, Intermediate, Hard) using strategies like random moves, weighted decisions, and the Minimax algorithm for optimal play. Designed dynamic board rendering and game status checks for win, draw, and ongoing conditions. Utilized recursive algorithms for decision-making and ensured a smooth user experience with robust input validation.",
+      "Developed a Python command-line tool to track coding hours using Google Calendar API integration. Implemented functionality to add events, calculate daily/weekly totals, and generate productivity statistics. Built comprehensive time management system with OAuth2 authentication and time zone handling.",
     technologies: ["C++"],
   },
   {
-    title: "Peer Assessment Application (Full-Stack)",
-    image: rice,
+    title: "Smart Course & Schedule Planner",
+    // image: rice,
     description:
-      "Developed a peer assessment application that facilitates student evaluations of team contributions based on dimensions such as cooperation, conceptual contribution, practical contribution, and work ethic. This project follows the Agile development approach, utilizing GitHub for version control and task management over a 10-week period, delivering four incremental prototypes.",
+      "Created a schedule generator that balances class times, study breaks, and preferences using backend filters. Implemented dynamic constraint handling with MongoDB query logic for optimized scheduling.",
     technologies: ["NodeJS", "React", "MongoDB"],
   },
   {
-    title: "Safe and Sound (Back-End)",
-    image: SafeAndSound,
+    title: "Peer Assessment Application",
+    // image: SafeAndSound,
     description:
-      "Developed a noise monitoring program using Python, designed to help cities track noise pollution patterns. Created at PolyHacks 2024, the project involved using Matplotlib for visualizations and expanded our understanding of sound analysis.",
+      "Developed a full-stack application for students to evaluate team contributions using rating dimensions. Delivered four iterations over 10 weeks using Agile methodology, version-controlled via GitHub.",
     technologies: ["Python"],
   },
-  {
-    title: "FormCheck AI ",
-    image: FormCheckAI,
-    description:
-      "Built a fitness application to help users check their exercise form and count repetitions for ConUHacks VIII. Designed for beginner gym-goers, the program analyzes body movements through a camera, providing feedback on rep quality.",
-    technologies: ["Python", "OpenCV", "MediaPipe", "HTML", "CSS", "JavaScript (Front-End)"],
-  },
-  {
-    title: "Smarter Priority Queue (SPQ) Implementation",
-    image: PriorityQueue,
-    description:
-      "Created an adaptable priority queue in Java, utilizing both min- and max-heap structures with a dynamically extendable array. Implemented efficient algorithms for all operations, optimizing time complexity, and delivered detailed pseudocode and complexity analysis alongside a fully tested Java implementation.",
-    technologies: ["Java"],
-  },
+  // {
+  //   title: "FormCheck AI ",
+  //   image: FormCheckAI,
+  //   description:
+  //     "Built a fitness application to help users check their exercise form and count repetitions for ConUHacks VIII. Designed for beginner gym-goers, the program analyzes body movements through a camera, providing feedback on rep quality.",
+  //   technologies: ["Python", "OpenCV", "MediaPipe", "HTML", "CSS", "JavaScript (Front-End)"],
+  // },
+  // {
+  //   title: "Smarter Priority Queue (SPQ) Implementation",
+  //   image: PriorityQueue,
+  //   description:
+  //     "Created an adaptable priority queue in Java, utilizing both min- and max-heap structures with a dynamically extendable array. Implemented efficient algorithms for all operations, optimizing time complexity, and delivered detailed pseudocode and complexity analysis alongside a fully tested Java implementation.",
+  //   technologies: ["Java"],
+  // },
 ];
 
 export const CONTACT = {
